@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>relativity</title>
+</head>
+<body>
+    <script>
+        var day = 4/1000000000 ;
+        var monthly = day * 31 ;
+        var yearly = monthly  * 12;
+        var decade = yearly * 10 ;
+        var fifty = decade * 5;
+        var century = fifty * 2;
+        var millennium = century * 10 ;
+        var tenthouthand = millennium * 10 ;
+        var hundredthouthand　= tenthouthand * 10;
+        var million = hundredthouthand * 10 ;
+
+
+        document.write('<p>1日で地上より10億分の' + day * 1000000000 + '秒速い</p>');
+        document.write('<p>1ヶ月で地上より1000万分の' + monthly * 10000000 + '秒速い</p>');
+        document.write('<p>1年で地上より1000万分の' + yearly * 10000000 + '秒速い</p>');
+        document.write('<p>10年で地上より100万分の' + decade * 1000000 + '秒速い</p>');
+        document.write('<p>50年で地上より100万分の' + fifty　* 1000000 + '秒速い</p>');
+        document.write('<p>100年で地上より1万分の' + century * 10000 + '秒速い</p>');
+        document.write('<p>1,000年で地上より1000分の' + millennium * 1000 + '秒速い</p>');
+        document.write('<p>10,000年で地上より100分の' + tenthouthand * 100 + '秒速い</p>');
+        document.write('<p>100,000年で地上より10分の' + hundredthouthand * 10 + '秒速い</p>');
+        document.write('<p>1,000,000年で地上より' + million * 1 + '秒速い</p>');
+
+
+    </script>
+</body>
+</html>
