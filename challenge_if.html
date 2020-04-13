@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>課題1</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <script>
+        var  num = Math.floor(Math.random() * 101);
+
+        document.write('<p>出た数字:' + num + '</p>');
+
+        //判定には、余りから奇数偶数を判別する演算子を使う
+        if (num % 2 === 0) {
+            document.write('<p>偶数</p>');
+        } else {
+            document.write('<p>奇数</p>');
+        }
+        
+    </script>
+</body>
+</html>

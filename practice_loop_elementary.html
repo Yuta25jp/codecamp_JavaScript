@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>課題3-10</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <script>
+        //過去「年」
+        var oldyear = 2000 ;
+        // 現在日時を取得
+        var date = new Date();
+        // 現在日時から「年」のみを取得
+        var year = date.getFullYear();
+        while(oldyear < year ) {
+            document.write('<p>' + oldyear + '</p>');
+            oldyear++;
+            }
+        document.write(year);
+    </script>
+</body>
+</html>
