@@ -8,14 +8,15 @@
 <body>
     <script>
         //0~100の好きな数字を取得
+                //0~100の好きな数字を取得
         var rand = Math.floor(Math.random() * 101);
         document.write('<p>rand: ' + rand + '</p>');
-        if (rand >= 80) {
-            document.write('<p>randは80以上</p>');
+        if (rand >= 50) {
+            document.write('<p>randは50以上</p>');
         } else if (rand <= 30) {
             document.write('<p>randは30以下</p>');            
         } else {
-        document.write('<p>randは30より大きく80より小さい</p>');
+        document.write('<p>randは30より大きく50より小さい</p>');
         }
     </script>
 </body>
